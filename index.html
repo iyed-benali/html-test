@@ -1,1 +1,65 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+</head>
+<body>
+
+    <nav style="background-color: lightgray;">
+        <ul>
+            <li><a href="#profile" style="color: black;">Profile</a></li>
+            <li><a href="#blog" style="color: black;">Blog Posts</a></li>
+            <li><a href="#contact" style="color: black;">Contact Me</a></li>
+            <li><a href="#gallery" style="color: black;">Photo Gallery</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="profile" style="font-size: 32px; color: blue;">John Doe</h1>
+    <img src="profile.jpg" alt="Profile Picture" width="200" style="border: 2px solid black; border-radius: 50%;">
+    <p style="font-size: 18px;">Hi! I'm John, a web developer with a passion for creating beautiful and functional websites.</p>
+
+    <h2 id="blog" style="font-size: 24px; color: green;">Blog Posts</h2>
+    <div class="post">
+        <h3 style="font-size: 20px;">My First Post</h3>
+        <p>Today, I started my journey into web development. I'm excited to learn!</p>
+    </div>
+    <div class="post">
+        <h3 style="font-size: 20px;">Why Learning HTML</h3>
+        <ul>
+            <li>It's super important in web development.</li>
+            <li>It's easy to learn.</li>
+        </ul>
+    </div>
+
+    <h2 id="contact" style="font-size: 24px; color: purple;">Contact Me</h2>
+    <div class="contact-form">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required style="background-color: #f0f0f0;">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required style="background-color: #f0f0f0;">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required style="background-color: #f0f0f0;"></textarea>
+
+            <button type="submit" style="background-color: blue; color: white; font-size: 16px;">Send</button>
+        </form>
+    </div>
+
+    <h2 id="gallery" style="font-size: 24px; color: orange;">My Photo Gallery</h2>
+    <div class="gallery">
+        <img src="photo1.jpg" alt="Photo 1" width="200">
+        <img src="photo2.jpg" alt="Photo 2" width="200">
+        <img src="photo3.jpg" alt="Photo 3" width="200">
+    </div>
+
+    <footer>
+        <p style="color: gray; font-size: 14px;">&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
